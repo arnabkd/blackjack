@@ -1,10 +1,10 @@
-Model the game
+# Model the game
 • create a single deck of playing cards
 • two players (called Sam and the Dealer) who will play against each other
 • each player is given two cards from the top of a shuffled deck of cards. Cards
 are given in the following order: [sam, dealer, sam, dealer]
 
-Rules to implement
+# Rules to implement
 • determine score of a hand[1]
 • check if either player has Blackjack with their initial hand and wins the game.
 Blackjack is an initial score of 21 with two cards: A + [10, J, Q, K]
@@ -23,7 +23,7 @@ the top of the deck
 [1] Numbered cards are their point value. Jack, Queen and King count as 10 and Ace
 counts as 11.
 
-Input
+# Input
 The game should be able to read a file containing a deck of cards, taking the
 reference to the file as a command line argument, as a starting point. If no file is
 provided, a new shuffled deck of 52 unique cards should be initialized.
@@ -45,7 +45,7 @@ Q: Queen
 K: King
 A: Ace
 
-Output
+# Output
 At the end, the solution should print the name of the winner to standard out, together
 with the hands of both sam and the dealer. Using the following format:
 [sam|dealer]
